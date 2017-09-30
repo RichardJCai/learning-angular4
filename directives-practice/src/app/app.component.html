@@ -1,0 +1,6 @@
+<div>
+  <button class="btn" (click)="helloOnClick()">hello</button>
+</div>
+
+<p *ngIf="toggleOn">Secret Password = "hello"</p>
+<p *ngFor="let click of numClicks" a [ngClass]="{afterFourClicks: click > 3}">{{click}}</p>
